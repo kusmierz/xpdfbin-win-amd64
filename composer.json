@@ -1,0 +1,26 @@
+{
+    "name": "kusmierz/xpdfbin-win-amd64",
+    "version": "3.03",
+    "description": "Xpdf is an open source viewer for Portable Document Format (PDF) files. (These are also sometimes also called 'Acrobat' files, from the name of Adobe's PDF software.) The Xpdf project also includes a PDF text extractor, PDF-to-PostScript converter, and various other utilities. Windows binary for amd64 systems.",
+    "keywords": ["pdf", "xpdf", "text extract", "info", "extract", "images", "convert", "binary", "windows"],
+    "license": "GPL Version 3",
+    "homepage": "http://www.foolabs.com/xpdf/index.html",
+    "authors": [
+        {
+            "name": "Derek B. Noonburg",
+            "email": "derekn@foolabs.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/pdfdetach.exe",
+        "bin/pdffonts.exe",
+        "bin/pdfimages.exe",
+        "bin/pdfinfo.exe",
+        "bin/pdftoppm.exe",
+        "bin/pdftops.exe",
+        "bin/pdftotext.exe"
+    ],
+    "require": {
+    }
+}
